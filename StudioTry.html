@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form Attributes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <article>
+        <header>
+            <h1>What Does WWF Do?</h1>
+            <p>WWF's mission:</p>
+        </header>
+        <p>WWF's mission is to stop the degradation of our planet's natural environment, and build a future in which humans live in harmony with nature.</p>
+    </article>
+    <form action="" method="GET">
+        <table>
+            <tr>
+                <td><label>First Name: </label></td>
+                <td><input type="text" name="fname" maxlength="10" autocomplete="on" /></td>
+            </tr>
+        </table>
+        <input list="browsers" value="Internet Explorer" />
+
+        <datalist id="browsers">
+  <option value="Internet Explorer"></option>
+  <option value="Firefox"></option>
+  <option value="Chrome"></option>
+  <option value="Opera"></option>
+  <option value="Safari"></option>
+</datalist>
+    </form>
+
+</body>
+
+</html>

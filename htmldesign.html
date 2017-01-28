@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Designing in HTML</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <canvas id="myCanvasLine" width="200" height="100 " style="border: 1px solid black">
+    <script>
+        var c= document.getElementById("myCanvasLine");
+        var ctx=c.getContext("2d");
+        ctx.moveTo(0,0);
+		ctx.lineTo(200,100);
+		ctx.stroke();
+	</script>
+    </canvas>
+<canvas id="myCanvasCircle" width="200" height="100" style="border: solid 1px red">
+<script type="text/javascript">
+	var c=document.getElementById('myCanvasCircle');
+	var ctx=c.getContext("2d");
+	ctx.beginPath();
+	ctx.arc(95,50,40,0,2*Math.PI);
+	ctx.stroke();
+</script>
+
+	
+</canvas>
+</body>
+
+</html>
